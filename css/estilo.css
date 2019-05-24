@@ -9,6 +9,9 @@ body{
 	margin-left: -15px;
 	margin-right: -15px;
 }
+.negrita{
+	font-weight: bold;
+}
 /*START TOP-NAVIGATION*/
 .top-navigation{
 	background-color: #EC500D;
@@ -40,7 +43,7 @@ body{
 	color: #fff;
 }
 /*END NAVBAR*/
-/*START BANNER*/
-.bannerImg{
-	width: 100%;
+/*START APRESENTACAO*/
+.apresentacao p{
+	font-size: 0.9rem;
 }
