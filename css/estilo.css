@@ -42,8 +42,20 @@ body{
 .botao{
 	color: #fff;
 }
+.banner{
+	background-color: gray;
+}
 /*END NAVBAR*/
 /*START APRESENTACAO*/
+.apresentacao{
+	background-color: #F8E4DB;
+}
 .apresentacao p{
 	font-size: 0.9rem;
+}
+.card{
+	max-width: 250px;
+}
+.apresentacao div p card-text{
+	font-weight: normal;
 }
