@@ -63,3 +63,15 @@ body{
 .encontre{
 	background-color: #F28D3E;
 }
+/*START FOOTER*/
+.rodape{
+	background-color: #424141;
+	color: #fff;
+}
+.rodape hr{
+	border: 1px solid #fff;
+}
+.rodape h1{
+	font-family: Freestyle script, ubuntu, sans-serif;
+	color: #fff;
+}
