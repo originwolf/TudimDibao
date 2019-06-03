@@ -59,9 +59,13 @@ body{
 .apresentacao div p card-text{
 	font-weight: normal;
 }
+/*START CARDAPIO*/
+.cardapio{
+	background-color: #F28D3E;
+}
 /*START ENCONTRE*/
 .encontre{
-	background-color: #F28D3E;
+	background-color: #F8E4DB;
 }
 /*START FOOTER*/
 .rodape{
