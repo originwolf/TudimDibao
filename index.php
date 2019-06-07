@@ -78,6 +78,7 @@
 					<li class="nav-item">
 						<a href="#encontre" class="nav-link mx-2">Nos encontre</a>
 					</li>
+					
 				</ul>
 				
 			</nav>
@@ -134,18 +135,78 @@
 			</div>
 			
 		</section>
+		
+		<!-- START SLIDESHOW -->
+		<section id="slideshow" class="carousel slide carousel-fade no-margin" data-ride="carousel">
+
+			<ul class="carousel-indicators">
+
+				<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshow" data-slide-to="1"></li>
+				<li data-target="#slideshow" data-slide-to="2"></li>
+
+			</ul>
+
+			<div class="carousel-inner mb-0 pb-0">
+
+				<figure class="carousel-item active">
+					<img src="image/slide1.png" alt="" class="img-fluid">
+				</figure>
+
+				<figure class="carousel-item">
+					<img src="image/slide2.png" alt="" class="img-fluid">
+				</figure>
+
+				<figure class="carousel-item">
+					<img src="image/slide3.png" alt="" class="img-fluid">
+				</figure>
+
+			</div>
+
+			<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+			<a href="#slideshow" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+			<script>
+
+				$('#slideshow').carousel({
+					interval: 3500,
+					pause: false,
+				});
+
+			</script>
+
+		</section>
+		<!-- END SLIDESHOW -->
 
 		<section id="cardapio" class="row cardapio no-margin justify-content-center">
 
-			<h1 class="text-center py-3 col-12">Cardapio</h1>
+			<h1 class="text-center py-3 col-12">Cardápio</h1>
 
 			<div class="col-8 pb-4">
 
-				<iframe src="cardapio.php" frameborder="0" width="90%" height="330"></iframe>
+				<iframe src="cardapio.php" frameborder="0" width="90%" height="350"></iframe>
 				
 			</div>
 
-			<div class="col-3 pb-4">
+			<div class="row col-4 pb-4 d-none d-sm-inline">
+
+				<div class="card preco" style="width: 18rem;">
+					
+					<div class="card-body">
+
+				    	<h5 class="card-title d-none d-md-block">Confira nossos preços:</h5>
+				    	<h5 class="card-title d-block d-md-none">Nossos preços:</h5>
+				    	<h6 class="card-subtitle mb-2 text-muted d-none d-md-block">O preço só varia no tamanho da marmitex:</h6>
+				    	<p class="card-text negrita">Marmitex pequena:</p>
+				    	<p class="card-text negrita">R$ 14,00</p>
+				    	<p class="card-text negrita">Marmitex média:</p>
+				    	<p class="card-text negrita">R$ 17,00</p>
+				    	<p class="card-text negrita">Marmitex Grande:</p>
+				    	<p class="card-text negrita">R$ 20,00</p>
+
+					</div>
+
+				</div>
 				
 			</div>
 			
@@ -206,4 +267,5 @@
 	</div>
 	
 </body>
+
 </html>

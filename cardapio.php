@@ -16,14 +16,14 @@
 	$query5 = sprintf("SELECT sexta FROM cardapio");
 	$query6 = sprintf("SELECT sabado FROM cardapio");
 
-	$dados = mysqli_query($con, $query) or die(mysql_error());
+	$dados = mysqli_query($con, $query) or die(mysqli_error($con));
 
-	$dados1 = mysqli_query($con, $query1) or die(mysql_error());
-	$dados2 = mysqli_query($con, $query2) or die(mysql_error());
-	$dados3 = mysqli_query($con, $query3) or die(mysql_error());
-	$dados4 = mysqli_query($con, $query4) or die(mysql_error());
-	$dados5 = mysqli_query($con, $query5) or die(mysql_error());
-	$dados6 = mysqli_query($con, $query6) or die(mysql_error());
+	$dados1 = mysqli_query($con, $query1) or die(mysqli_error($con));
+	$dados2 = mysqli_query($con, $query2) or die(mysqli_error($con));
+	$dados3 = mysqli_query($con, $query3) or die(mysqli_error($con));
+	$dados4 = mysqli_query($con, $query4) or die(mysqli_error($con));
+	$dados5 = mysqli_query($con, $query5) or die(mysqli_error($con));
+	$dados6 = mysqli_query($con, $query6) or die(mysqli_error($con));
 
 	$linha = mysqli_fetch_assoc($dados);
 

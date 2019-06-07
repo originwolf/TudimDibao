@@ -13,9 +13,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/estilo.css">
+
+	<!-- javascript -->
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/logo.png">
@@ -73,6 +78,7 @@
 					<li class="nav-item">
 						<a href="#encontre" class="nav-link mx-2">Nos encontre</a>
 					</li>
+					
 				</ul>
 				
 			</nav>
@@ -129,10 +135,82 @@
 			</div>
 			
 		</section>
+		
+		<!-- START SLIDESHOW -->
+		<section id="slideshow" class="carousel slide carousel-fade no-margin" data-ride="carousel">
 
-		<section id="cardapio" class="cardapio no-margin">
+			<ul class="carousel-indicators">
 
-			<h1 class="text-center mb-0 py-3">Cardapio</h1>
+				<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshow" data-slide-to="1"></li>
+				<li data-target="#slideshow" data-slide-to="2"></li>
+
+			</ul>
+
+			<div class="carousel-inner mb-0 pb-0">
+
+				<figure class="carousel-item active">
+					<img src="image/slide1.png" alt="" class="img-fluid">
+				</figure>
+
+				<figure class="carousel-item">
+					<img src="image/slide2.png" alt="" class="img-fluid">
+				</figure>
+
+				<figure class="carousel-item">
+					<img src="image/slide3.png" alt="" class="img-fluid">
+				</figure>
+
+			</div>
+
+			<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+			<a href="#slideshow" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+			<script>
+
+				$('#slideshow').carousel({
+					interval: 3500,
+					pause: false,
+				});
+
+			</script>
+
+		</section>
+		<!-- END SLIDESHOW -->
+
+		<section id="cardapio" class="row cardapio no-margin justify-content-center">
+
+			<h1 class="text-center py-3 col-12">Cardápio</h1>
+
+			<div class="col-8 pb-4">
+
+				<div style="background-color: white;">
+					<p>O cardápio ia aqui com um iframe em .php</p>
+				</div>
+				
+			</div>
+
+			<div class="row col-4 pb-4 d-none d-sm-inline">
+
+				<div class="card preco" style="width: 18rem;">
+					
+					<div class="card-body">
+
+				    	<h5 class="card-title d-none d-md-block">Confira nossos preços:</h5>
+				    	<h5 class="card-title d-block d-md-none">Nossos preços:</h5>
+				    	<h6 class="card-subtitle mb-2 text-muted d-none d-md-block">O preço só varia no tamanho da marmitex:</h6>
+				    	<p class="card-text negrita">Marmitex pequena:</p>
+				    	<p class="card-text negrita">R$ 14,00</p>
+				    	<p class="card-text negrita">Marmitex média:</p>
+				    	<p class="card-text negrita">R$ 17,00</p>
+				    	<p class="card-text negrita">Marmitex Grande:</p>
+				    	<p class="card-text negrita">R$ 20,00</p>
+
+					</div>
+
+				</div>
+				
+			</div>
 			
 		</section>
 
@@ -189,10 +267,7 @@
 			</section>
 		
 	</div>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	
 </body>
+
 </html>
