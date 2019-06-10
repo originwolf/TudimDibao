@@ -12,9 +12,9 @@
 
 	$con = mysqli_connect($servername, $user, $pass, $db) or die("Sem conexão com o servidor");
 
-	$result =  sprintf("SELECT * FROM `usuarios` WHERE `nomeUsuario` = '$login' AND `senhaUsuario`= '$senha'");
+	$result =  sprintf("SELECT * FROM `usuarios` WHERE `loginUsuario` = '$login' AND `senhaUsuario`= '$senha'");
 
-	$dados = mysqli_query($con, $result) or die(mysql_error());
+	$dados = mysqli_query($con, $result) or die(mysqli_error($con));
 	
 	$total = mysqli_num_rows($dados);
 	

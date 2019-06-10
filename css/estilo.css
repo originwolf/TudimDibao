@@ -83,3 +83,34 @@ body{
 #slideshow{
 	margin-bottom: -1rem;
 }
+/*START LOGIN*/
+.cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8E4DB;
+}
+.card{
+	border-radius: 25px;
+}
+/*START FORM*/
+.bodyForm{
+    background-color: #F8E4DB;
+    height: 100vh;
+    width: 100vw;
+}
+.formInput{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formuInput{
+	background-color: white;
+	border-radius: 15px;
+}

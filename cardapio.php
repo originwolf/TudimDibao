@@ -46,11 +46,6 @@
 
 	<style>
 
-		@font-face{
-			font-family: ubuntu;
-			src: url("../fonts/Ubuntu.ttf") format("truetype");
-		}
-
 		body{
 			font-family: ubuntu, arial, sans-serif;
 		}
