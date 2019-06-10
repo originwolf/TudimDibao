@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/estilo.css">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" href="images/logo.png">
+	<link rel="shortcut icon" type="image/x-icon" href="image/logo.ico">
 
 </head>
 <body>
