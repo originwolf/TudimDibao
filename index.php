@@ -13,14 +13,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- css -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/estilo.css">
-
-	<!-- javascript -->
-	<script src="js/jquery.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.js"></script>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/logo.png">
@@ -34,7 +29,8 @@
 	<div class="container-fluid">
 
 		<header>
-
+			
+			<!-- START TOP-NAVIGATION -->
 			<section class="row top-navigation">
 
 				<div class="col-12 text-center">
@@ -56,7 +52,8 @@
 				</div>
 
 			</section>
-
+			<!-- END TOP-NAVIGATION -->
+			<!-- START NAVBAR -->
 			<nav class="navbar navbar-expand-xl no-margin">
 
 				<div class="navbar-brand text-center">
@@ -82,9 +79,11 @@
 				</ul>
 				
 			</nav>
+			<!-- END NAVBAR -->
 
 		</header>
-
+		
+		<!-- START BANNER -->
 		<section class="banner no-margin">
 
 			<img src="image/bannerxl.png" class="d-none d-lg-block img-fluid">
@@ -94,7 +93,8 @@
 			<img src="image/banner.png" class="d-block d-sm-none img-fluid">
 		
 		</section>
-
+		<!-- END BANNER -->
+		<!-- START INFOS -->
 		<section id="infos" class="row apresentacao no-margin justify-content-center pb-5">
 
 			<div class="col-12 text-center my-4">
@@ -135,7 +135,7 @@
 			</div>
 			
 		</section>
-		
+		<!-- END INFOS -->
 		<!-- START SLIDESHOW -->
 		<section id="slideshow" class="carousel slide carousel-fade no-margin" data-ride="carousel">
 
@@ -177,7 +177,7 @@
 
 		</section>
 		<!-- END SLIDESHOW -->
-
+		<!-- START CARDAPIO -->
 		<section id="cardapio" class="row cardapio no-margin justify-content-center">
 
 			<h1 class="text-center py-3 col-12">Cardápio</h1>
@@ -211,7 +211,8 @@
 			</div>
 			
 		</section>
-
+		<!-- END CARDAPIO -->
+		<!-- START ENCONTRE -->
 		<section id="encontre" class="encontre no-margin">
 
 			<h1 class="text-center pt-3">Encontre-nos</h1>
@@ -224,47 +225,57 @@
 				
 			</div>
 			
-		</section>		
+		</section>	
+		<!-- END ENCONTRE -->
+		<!-- START FOOTER -->
+		<footer>
 
-		<section class="row justify-content-center rodape">	
+			<section class="row justify-content-center rodape">	
 
-			<div class="col-12">
-				<h1 class="text-center pt-3">TudimDibao</h1>
-				<hr>
-			</div>
-				
-			<div class="col-sm-4">
+				<div class="col-12">
+					<h1 class="text-center pt-3">TudimDibao</h1>
+					<hr>
+				</div>
+					
+				<div class="col-sm-4">
 
-				<h3>Contatos:</h3>
-				<p><span class="negrita">WhatsApp: </span>99950-0180</p>
-				<p><span class="negrita">Telefone: </span>3265-1517</p>
+					<h3>Contatos:</h3>
+					<p><span class="negrita">WhatsApp: </span>99950-0180</p>
+					<p><span class="negrita">Telefone: </span>3265-1517</p>
 
-			</div>
+				</div>
 
-			<div class="col-sm-4">	
+				<div class="col-sm-4">	
 
-				<h3>Endereço:</h3>
-				<p>Rua ambrozina de Jesus, 199</p>
-				<p>Alcides Mesquita, Três Pontas MG</p>
+					<h3>Endereço:</h3>
+					<p>Rua ambrozina de Jesus, 199</p>
+					<p>Alcides Mesquita, Três Pontas MG</p>
 
-			</div>
+				</div>
 
-			<div class="col-sm-4">
+				<div class="col-sm-4">
 
-				<h3>Horário de funcionamento:</h3>
-				<p>Segunda à sábado</p>
-				<p>das 10:30h até 14:00h</p>
+					<h3>Horário de funcionamento:</h3>
+					<p>Segunda à sábado</p>
+					<p>das 10:30h até 14:00h</p>
 
-			</div>
+				</div>
 
-			<div class="col-12 text-center">			
-				<hr>
-				<p>TudimDibao - Restaurante Delivery - 2019</p>	
-			</div>		
+				<div class="col-12 text-center">			
+					<hr>
+					<p>TudimDibao - Restaurante Delivery - 2019</p>	
+				</div>		
 
 			</section>
+			
+		</footer>
+		<!-- END FOOTER -->
 		
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	
 </body>
 
