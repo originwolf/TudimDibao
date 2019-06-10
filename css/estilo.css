@@ -79,3 +79,7 @@ body{
 	font-family: Freestyle script, ubuntu, sans-serif;
 	color: #fff;
 }
+/*START CAROUSEL*/
+#slideshow{
+	margin-bottom: -1rem;
+}
