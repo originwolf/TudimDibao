@@ -62,6 +62,10 @@
 
 				</div>
 
+				<div>
+					<img src="image/logo.ico" class="img-fluid">
+				</div>
+
 				<ul id="menubar" class="navbar-nav nav collapse navbar-collapse justify-content-end">
 
 					<li class="nav-item">
@@ -127,7 +131,7 @@
 					<p class="card-text">Rua ambrozina de Jesus, 199</p>
 					<p class="card-text">Alcides Mesquita, Três Pontas MG</p>
 
-					<h5 class="card-title fas fa-credit-card"> Pague com o seu cartão:</h5>
+					<h5 class="card-title fas fa-credit-card d-none d-sm-block"> Pague com o seu cartão:</h5>
 					<p class="card-text">Aceitamos cartões de crédito e débito.</p>
 					
 				</div>
@@ -182,13 +186,13 @@
 
 			<h1 class="text-center py-3 col-12">Cardápio</h1>
 
-			<div class="col-8 pb-4">
+			<div class="col-md-8 col-sm-10 pb-4">
 
-				<iframe src="cardapio.php" frameborder="0" width="90%" height="350"></iframe>
+				<iframe src="cardapio.php" frameborder="0" width="90%" height="340"></iframe>
 				
 			</div>
 
-			<div class="row col-4 pb-4 d-none d-sm-inline">
+			<div class="row col-4 pb-4 d-none d-md-inline">
 
 				<div class="card preco" style="width: 18rem;">
 					
@@ -196,7 +200,7 @@
 
 				    	<h5 class="card-title d-none d-md-block">Confira nossos preços:</h5>
 				    	<h5 class="card-title d-block d-md-none">Nossos preços:</h5>
-				    	<h6 class="card-subtitle mb-2 text-muted d-none d-md-block">O preço só varia no tamanho da marmitex:</h6>
+				    	<h6 class="card-subtitle mb-2 text-muted d-none d-sm-block">O preço só varia no tamanho da marmitex:</h6>
 				    	<p class="card-text negrita">Marmitex pequena:</p>
 				    	<p class="card-text negrita">R$ 14,00</p>
 				    	<p class="card-text negrita">Marmitex média:</p>
