@@ -31,7 +31,7 @@
 		<header>
 			
 			<!-- START TOP-NAVIGATION -->
-			<section class="row top-navigation">
+			<section id="home" class="row top-navigation">
 
 				<div class="col-12 text-center">
 					
@@ -263,6 +263,10 @@
 					<p>Segunda à sábado</p>
 					<p>das 10:30h até 14:00h</p>
 
+				</div>
+
+				<div class="scrolltop">
+					<a href="#home"><i class="fas fa-arrow-up"></i></a>
 				</div>
 
 				<div class="col-12 text-center">			

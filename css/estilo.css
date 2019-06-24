@@ -79,6 +79,12 @@ body{
 	font-family: Freestyle script, ubuntu, sans-serif;
 	color: #fff;
 }
+.scrolltop a{
+	color: #fff;
+}
+.scrolltop a:hover{
+	color: #aaa;
+}
 /*START CAROUSEL*/
 #slideshow{
 	margin-bottom: -1rem;
