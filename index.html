@@ -24,7 +24,6 @@
 <body>
 
 	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3"></script>
 
 	<div class="container-fluid">
 
@@ -57,9 +56,7 @@
 			<nav class="navbar navbar-expand-xl no-margin">
 
 				<div class="navbar-brand text-center">
-
 					<button class="navbar-toggler" data-toggle="collapse" data-target="#menubar"><span class="fas fa-bars botao"></span></button>
-
 				</div>
 
 				<div>
@@ -79,8 +76,6 @@
 					<li class="nav-item">
 						<a href="#" onclick="go('#encontre')" class="nav-link mx-2">Nos encontre</a>
 					</li>
-
-					<!-- <button id="arrow" type="button" onclick="go('#home')" class="btn btn-outline-light"><i class="fas fa-arrow-up"></i></button> -->
 					
 				</ul>
 				
@@ -93,9 +88,7 @@
 		<section class="banner no-margin">
 
 			<img src="image/bannerxl.png" class="d-none d-lg-block img-fluid">
-
 			<img src="image/bannermd.png" class="d-none d-sm-block d-lg-none img-fluid">
-
 			<img src="image/banner.png" class="d-block d-sm-none img-fluid">
 		
 		</section>
@@ -103,10 +96,8 @@
 		<!-- START INFOS -->
 		<section id="infos" class="row apresentacao no-margin pb-5 justify-content-center">
 
-			<div class="col-12 text-center my-4">
-					
+			<div class="col-12 text-center my-4">	
 				<h1 class="nomeRestaurante">TudimDibão <span class="d-none d-sm-inline">- Restaurante</span> <span class="d-none d-sm-none d-md-inline">delivery</span></h1>
-
 			</div>
 
 			<div class="card col-lg-3 col-md-3 text-right d-none d-sm-inline">
@@ -255,15 +246,6 @@
 			<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 			<a href="#slideshow" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
 
-			<script>
-
-				$('#slideshow').carousel({
-					interval: 3500,
-					pause: false,
-				});
-
-			</script>
-
 		</section>
 		<!-- END SLIDESHOW -->
 		<!-- START ENCONTRE -->
@@ -328,15 +310,24 @@
 		<!-- END FOOTER -->
 		
 	</div>
-
+	
+	<!-- Scripts necessários ao bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!-- Script necessário ao widget do facebook -->
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3"></script>
 
+	<!-- Scripts necessários para o funcionamento interno da página -->
 	<script>
 		const go = (elem) => {
-			window.scroll({top: document.querySelector( elem ).offsetTop, left: 0, behavior: 'smooth'});
+			window.scroll({top: document.querySelector(elem).offsetTop, left: 0, behavior: 'smooth'});
 		}	
+	</script>
+
+	<script>
+		$('#slideshow').carousel({interval: 3500, pause: false});
 	</script>
 	
 </body>
