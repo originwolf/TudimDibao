@@ -99,7 +99,7 @@
 		</section>
 		<!-- END BANNER -->
 		<!-- START INFOS -->
-		<section id="infos" class="row apresentacao no-margin justify-content-center pb-5">
+		<section id="infos" class="row apresentacao no-margin pb-5 justify-content-center">
 
 			<div class="col-12 text-center my-4">
 					
@@ -107,7 +107,7 @@
 
 			</div>
 
-			<div class="card col-5 text-right mr-4">
+			<div class="card col-lg-3 col-md-3 text-right d-none d-sm-inline">
 
 				<div class="card-body">
 
@@ -123,7 +123,9 @@
 
 			</div>
 
-			<div class="card col-5 text-left ml-2">
+			<div class="mx-4 d-none d-sm-inline"></div>
+
+			<div class="card col-lg-3 col-md-3 text-left d-none d-sm-inline">
 
 				<div class="card-body">
 
@@ -137,9 +139,79 @@
 				</div>
 				
 			</div>
+
+			<div class="card col-lg-3 col-md-4 text-center d-block d-sm-none">
+
+				<div class="card-body">
+
+					<h5 class="card-title fas fa-phone"> Fale conosco:</h5>
+					<p class="card-text fab fa-whatsapp"> 99950-0180</p>
+					<p class="card-text"> 3265-1517</p>
+
+					<h5 class="card-title fas fa-clock"> Nossos Horários:</h5>
+					<p class="card-text">Segunda à sábado</p>
+					<p class="card-text">das 10:30h até 14:00h</p>
+					
+				</div>
+
+			</div>
+
+			<div class="card col-lg-3 col-md-4 text-center d-block d-sm-none">
+
+				<div class="card-body">
+
+					<h5 class="card-title fas fa-home"> Endereço:</h5>
+					<p class="card-text">Rua Ambrozina de Jesus, 199</p>
+					<p class="card-text">Alcides Mesquita, Três Pontas MG</p>
+
+					<h5 class="card-title fas fa-credit-card d-none d-sm-block"> Pague com o seu cartão:</h5>
+					<p class="card-text">Aceitamos cartões de crédito e débito.</p>
+					
+				</div>
+				
+			</div>
+
+			<div class="col-3 d-none d-md-inline">
+				<img src="image/logoInfos.png" class="img-fluid" alt="">
+			</div>
 			
 		</section>
 		<!-- END INFOS -->
+		<!-- START CARDAPIO -->
+		<section id="cardapio" class="row cardapio no-margin justify-content-center">
+
+			<h1 class="text-center py-3 col-12">Cardápio</h1>
+
+			<div class="col-md-8 col-sm-10 pb-4">
+
+				<iframe src="cardapio.php" frameborder="0" width="90%" height="340"></iframe>
+				
+			</div>
+
+			<div class="row col-4 pb-4 d-none d-md-inline">
+
+				<div class="card preco" style="width: 18rem;">
+					
+					<div class="card-body">
+
+				    	<h5 class="card-title d-none d-md-block">Confira nossos preços:</h5>
+				    	<h5 class="card-title d-block d-md-none">Nossos preços:</h5>
+				    	<h6 class="card-subtitle mb-2 text-muted d-none d-sm-block">O preço só varia no tamanho da marmitex:</h6>
+				    	<p class="card-text negrita">Marmitex pequena:</p>
+				    	<p class="card-text negrita">R$ 14,00</p>
+				    	<p class="card-text negrita">Marmitex média:</p>
+				    	<p class="card-text negrita">R$ 17,00</p>
+				    	<p class="card-text negrita">Marmitex Grande:</p>
+				    	<p class="card-text negrita">R$ 20,00</p>
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+		</section>
+		<!-- END CARDAPIO -->
 		<!-- START SLIDESHOW -->
 		<section id="slideshow" class="carousel slide carousel-fade no-margin" data-ride="carousel">
 
@@ -181,41 +253,6 @@
 
 		</section>
 		<!-- END SLIDESHOW -->
-		<!-- START CARDAPIO -->
-		<section id="cardapio" class="row cardapio no-margin justify-content-center">
-
-			<h1 class="text-center py-3 col-12">Cardápio</h1>
-
-			<div class="col-md-8 col-sm-10 pb-4">
-
-				<iframe src="cardapio.php" frameborder="0" width="90%" height="340"></iframe>
-				
-			</div>
-
-			<div class="row col-4 pb-4 d-none d-md-inline">
-
-				<div class="card preco" style="width: 18rem;">
-					
-					<div class="card-body">
-
-				    	<h5 class="card-title d-none d-md-block">Confira nossos preços:</h5>
-				    	<h5 class="card-title d-block d-md-none">Nossos preços:</h5>
-				    	<h6 class="card-subtitle mb-2 text-muted d-none d-sm-block">O preço só varia no tamanho da marmitex:</h6>
-				    	<p class="card-text negrita">Marmitex pequena:</p>
-				    	<p class="card-text negrita">R$ 14,00</p>
-				    	<p class="card-text negrita">Marmitex média:</p>
-				    	<p class="card-text negrita">R$ 17,00</p>
-				    	<p class="card-text negrita">Marmitex Grande:</p>
-				    	<p class="card-text negrita">R$ 20,00</p>
-
-					</div>
-
-				</div>
-				
-			</div>
-			
-		</section>
-		<!-- END CARDAPIO -->
 		<!-- START ENCONTRE -->
 		<section id="encontre" class="encontre no-margin">
 
