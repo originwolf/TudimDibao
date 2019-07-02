@@ -67,17 +67,11 @@
 
 				<ul id="menubar" class="navbar-nav nav collapse navbar-collapse justify-content-end">
 
-					<li class="nav-item">
-						<a href="#" onclick="go('#cardapio')" class="nav-link mx-2">Cardápio</a>
-					</li>
+					<button id="btnCardapio" type="button" onclick="go('#cardapio')" class="btn btnMenu">Cardápio</button>
 
-					<li class="nav-item">
-						<a href="#" onclick="go('#infos')" class="nav-link mx-2">Informações</a>
-					</li>
+					<button id="btnInfos" type="button" onclick="go('#infos')" class="btn btnMenu">Informações</button>
 
-					<li class="nav-item">
-						<a href="#" onclick="go('#encontre')" class="nav-link mx-2">Nos encontre</a>
-					</li>
+					<button id="btnEncontre" type="button" onclick="go('#encontre')" class="btn btnMenu">Nos Encontre</button>
 					
 				</ul>
 				

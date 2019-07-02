@@ -33,15 +33,16 @@ body{
 .navbar{
 	background-color: #424141;
 }
-.nav-item a{
-	color: #fff;
-	font-size: 1.3rem;
-}
 .botao{
 	color: #fff;
 }
 .banner{
 	background-color: gray;
+}
+.btnMenu{
+	background-color: transparent;
+	color: white;
+	font-size: 1.3rem;
 }
 /*END NAVBAR*/
 /*START APRESENTACAO*/
