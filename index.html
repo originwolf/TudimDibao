@@ -83,9 +83,9 @@
 		<!-- START BANNER -->
 		<section class="banner no-margin">
 
-			<img src="image/bannerxl.png" class="d-none d-lg-block img-fluid">
-			<img src="image/bannermd.png" class="d-none d-sm-block d-lg-none img-fluid">
-			<img src="image/banner.png" class="d-block d-sm-none img-fluid">
+			<img src="image/bannerxl.webp" class="d-none d-lg-block img-fluid">
+			<img src="image/bannermd.webp" class="d-none d-sm-block d-lg-none img-fluid">
+			<img src="image/banner.webp" class="d-block d-sm-none img-fluid">
 		
 		</section>
 		<!-- END BANNER -->
